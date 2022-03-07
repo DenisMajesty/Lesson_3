@@ -13,6 +13,7 @@
 		66C8F84627D51BA10018FB6E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66C8F84427D51BA10018FB6E /* Main.storyboard */; };
 		66C8F84827D51BA40018FB6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66C8F84727D51BA40018FB6E /* Assets.xcassets */; };
 		66C8F84B27D51BA40018FB6E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66C8F84927D51BA40018FB6E /* LaunchScreen.storyboard */; };
+		66C8F85327D5354A0018FB6E /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C8F85227D5354A0018FB6E /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		66C8F84727D51BA40018FB6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		66C8F84A27D51BA40018FB6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		66C8F84C27D51BA40018FB6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66C8F85227D5354A0018FB6E /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				66C8F83E27D51BA10018FB6E /* AppDelegate.swift */,
 				66C8F84027D51BA10018FB6E /* SceneDelegate.swift */,
 				66C8F84227D51BA10018FB6E /* ViewController.swift */,
+				66C8F85227D5354A0018FB6E /* SettingsViewController.swift */,
 				66C8F84427D51BA10018FB6E /* Main.storyboard */,
 				66C8F84727D51BA40018FB6E /* Assets.xcassets */,
 				66C8F84927D51BA40018FB6E /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 				66C8F84327D51BA10018FB6E /* ViewController.swift in Sources */,
 				66C8F83F27D51BA10018FB6E /* AppDelegate.swift in Sources */,
 				66C8F84127D51BA10018FB6E /* SceneDelegate.swift in Sources */,
+				66C8F85327D5354A0018FB6E /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,12 +305,12 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "majestycrew.Lesson-3";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -329,12 +333,12 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "majestycrew.Lesson-3";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
